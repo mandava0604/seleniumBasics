@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestNGdemo]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Testregression(failed)">
+    <classes>
+      <class name="Seleniumbasics.TestNGDemo">
+        <methods>
+          <include name="close"/>
+          <include name="launchurl"/>
+          <include name="endresults"/>
+          <include name="intialurls"/>
+          <include name="test3"/>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- Seleniumbasics.TestNGDemo -->
+    </classes>
+  </test> <!-- Testregression(failed) -->
+</suite> <!-- Failed suite [TestNGdemo] -->

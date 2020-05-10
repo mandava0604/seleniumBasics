@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-05-02T22:09:21 EDT" name="TestNGdemo" finished-at="2020-05-02T22:09:30 EDT" duration-ms="9193">
+    <groups>
+    </groups>
+    <test started-at="2020-05-02T22:09:21 EDT" name="Testregression" finished-at="2020-05-02T22:09:30 EDT" duration-ms="9193">
+      <class name="Seleniumbasics.TestNGBrowserparameter">
+        <test-method is-config="true" signature="beforesetup(java.lang.String)[pri:0, instance:Seleniumbasics.TestNGBrowserparameter@157632c9]" started-at="2020-05-02T22:09:21 EDT" name="beforesetup" finished-at="2020-05-02T22:09:30 EDT" duration-ms="9020" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesetup -->
+        <test-method signature="test2()[pri:0, instance:Seleniumbasics.TestNGBrowserparameter@157632c9]" started-at="2020-05-02T22:09:30 EDT" name="test2" finished-at="2020-05-02T22:09:30 EDT" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="tearoff()[pri:0, instance:Seleniumbasics.TestNGBrowserparameter@157632c9]" started-at="2020-05-02T22:09:30 EDT" name="tearoff" finished-at="2020-05-02T22:09:30 EDT" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearoff -->
+      </class> <!-- Seleniumbasics.TestNGBrowserparameter -->
+    </test> <!-- Testregression -->
+  </suite> <!-- TestNGdemo -->
+</testng-results>
